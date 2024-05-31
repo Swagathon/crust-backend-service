@@ -10,3 +10,5 @@ The fetch-images.js file uses the helia verified fetch library by ipfs in order 
 https://github.com/ipfs/helia-verified-fetch/tree/main/packages/verified-fetch
 
 The entire database is on a decentralized network using crust and ipfs technology.
+
+Data.html is pulling all the names of the sponsors along with the websites using the sponsors list in the project.
