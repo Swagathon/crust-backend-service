@@ -12,3 +12,5 @@ https://github.com/ipfs/helia-verified-fetch/tree/main/packages/verified-fetch
 The entire database is on a decentralized network using crust and ipfs technology.
 
 Data.html is pulling all the names of the sponsors along with the websites using the sponsors list in the project.
+
+IPFS Node hosted locally at the moment, crust is being used as the main online database.
