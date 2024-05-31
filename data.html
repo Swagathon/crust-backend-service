@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Data</title>
+</head>
+<body>
+  <h1>User Information</h1>
+  <p id="name"></p>
+  <a id="website" href=""></a> <script src="sponsors.json"></script>
+  <script>
+    const nameElement = document.getElementById('name');
+    const websiteElement = document.getElementById('website'); // Reference the anchor tag
+
+    fetch('sponsors.json')
+      .then(response => response.json())
+      .then(data => {
+        nameElement.textContent = data.name;
+        websiteElement.textContent = data.website; // Set website content
+        websiteElement.href = data.website; // Set website link (optional)
+      })
+      .catch(error => console.error(error));
+  </script>
+</body>
+</html>
