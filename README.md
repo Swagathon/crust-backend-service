@@ -6,3 +6,7 @@
 4. main.js --> copy crust code
 5. `npm run main.js`
 
+The fetch-images.js file uses the helia verified fetch library by ipfs in order to fetch and display data from the server.
+https://github.com/ipfs/helia-verified-fetch/tree/main/packages/verified-fetch
+
+The entire database is on a decentralized network using crust and ipfs technology.
